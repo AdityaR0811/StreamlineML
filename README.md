@@ -20,13 +20,17 @@ Performing file operations is risky due to potential data loss, high expense, an
 StreamlineML leverages specific data structures to tackle the problems outlined above:
 
 - **N-ary Tree**: Organizes datasets into test-train splits and stores raw data alongside its necessary metadata.
+- 
 - <img width="454" alt="image" src="https://github.com/maheXh/StreamlineML/assets/122071980/6072eba0-e4ab-4737-938e-4b81f60895a9">
 
 - **TreeMap (Hashmap of AVL Tree)**: Manages raw data efficiently with operations like insertion, deletion, and searching.
+- 
 - ![image](https://github.com/maheXh/StreamlineML/assets/122071980/3182790b-b335-4e60-ba2f-a80732a4e0ef)
 
 - **Singly-linked Lists and Queues**: Constructs a custom data pipeline featuring an image transformer, facilitating modifications to each image.
+- 
 ![image](https://github.com/maheXh/StreamlineML/assets/122071980/2ef37b26-b735-43b4-b39b-06a5106e6636)
+
 ![image](https://github.com/maheXh/StreamlineML/assets/122071980/df6d96f5-7094-4f3e-a2ec-f00de29ece38)
 
 ## Key Features
